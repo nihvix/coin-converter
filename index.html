@@ -19,23 +19,25 @@
         <h2>~ Currency converter ~</h2>
         <h4>Enter amount:</h4>
         <form action="#" id="formEuro">
-            <input type="text" value="" placeholder="EURO (€)" />
+            <input type="text" placeholder="EURO (€)" id="euro" />
         </form>
         <h4>Convert to:</h4>
         <form action="#" id="selectCurrency">
-            <select placeholder="Currency">
+            <select>
+                <option value="0" disabled>CURRENCIES</option>
                 <option value="dol">DOLLAR ($)</option>
                 <option value="won">WON (₩)</option>
                 <option value="yen">YEN (¥)</option>
             </select>
-            <input type="text" value="0" placeholder="" readonly />
+            <input type="text" value="0" placeholder="" id="output" readonly />
         </form>
         <form action="#" id="formButton">
-            <input type="submit" value="CONVERT" />
+            <input type="submit" value="CONVERT" id="convert"/>
             <p id="error"></p>
         </form>
     </main>
     <footer>Project by Inma Quesada</footer>
+    <script defer src="app.js"></script>
 </body>
 
 </html>

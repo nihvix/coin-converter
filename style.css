@@ -66,6 +66,9 @@ select {
     justify-content: center;
     align-items: center;
 }
+#formButton p{
+    width: 100%;
+}
 
 input,
 select {
@@ -84,9 +87,10 @@ input[type="submit"] {
 
 #error {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     color: brown;
     padding: 2px;
     width: 30%;
     text-align: center;
+    height: 20px;
 }
