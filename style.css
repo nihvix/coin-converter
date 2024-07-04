@@ -11,11 +11,6 @@
 
 body {
     background: rgb(20, 39, 133);
-    /*background: linear-gradient(90deg, rgba(7,19,82,1) 0%, rgba(25,57,180,1) 50%, rgba(252,244,69,1) 100%);*/
-    /*background-image: url("./flag.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center 60%;*/
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
@@ -43,9 +38,10 @@ footer {
   ------------------------------*/
 h2 {
     font-weight: 600;
+    /* FOR GRADIENT IN TITLE:
     background: -webkit-linear-gradient(goldenrod, black);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;*/
 }
 
 h4 {
