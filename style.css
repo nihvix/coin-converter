@@ -1,3 +1,92 @@
 /*------------------------------
         STYLE OF CONVERTER
   ------------------------------*/
+
+/*------------------------------
+            GENERAL TAGS
+  ------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(20, 39, 133);
+    /*background: linear-gradient(90deg, rgba(7,19,82,1) 0%, rgba(25,57,180,1) 50%, rgba(252,244,69,1) 100%);*/
+    /*background-image: url("./flag.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 60%;*/
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(232, 232, 232);
+    margin: 5% 25% 5% 25%;
+    padding: 2%;
+    font-size: 18px;
+    border-radius: 3%;
+    box-shadow: 2px 5px 10px rgb(5, 14, 58);
+}
+
+
+footer {
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+/*------------------------------
+        ELEMENTS IN MAIN
+  ------------------------------*/
+
+h4, label {
+    color: rgb(20, 39, 133);
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+}
+
+select {
+    padding: 10px;
+    font-size: 14px;
+}
+
+#formEuro{
+    display: inline;
+}
+#formButton {
+    margin: 5%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input,
+select {
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: goldenrod;
+}
+
+#error {
+    font-weight: 500;
+    font-size: 14px;
+    color: brown;
+    padding: 2px;
+    width: 30%;
+    text-align: center;
+}
