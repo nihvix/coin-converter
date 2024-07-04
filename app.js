@@ -9,7 +9,7 @@ EUR= 174,20 YEN
 */
 /*----- Variables -----*/
 const inputEuro = document.getElementById("euro");
-const inputCurrency = document.getElementById("formCurrency");
+const inputCurrency = document.getElementById("selectCurrency");
 const outputCurrency = document.getElementById("output");
 const convertButton = document.getElementById("convert");
 const error = document.getElementById("error");
