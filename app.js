@@ -45,13 +45,13 @@ function convert() {
     let money = parseInt(inputEuro.value);
     switch (inputCurrency.value) {
       case "dol":
-        outputCurrency.value = (money * 1.08) + " $";
+        outputCurrency.value = (money * 1.08).toFixed(2) + " $";
         break;
       case "won":
-        outputCurrency.value = (money * 1490.89) + " ₩";
+        outputCurrency.value = (money * 1490.89).toFixed(2) + " ₩";
         break;
       case "yen":
-        outputCurrency.value = (money * 174.20) + " ¥";
+        outputCurrency.value = (money * 174.20).toFixed(2) + " ¥";
         break;
       default: break;
     }
