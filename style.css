@@ -81,6 +81,12 @@ input[type="submit"] {
     background-color: goldenrod;
 }
 
+#formEuro p {
+    display: inline;
+    width: 10%;
+    color: rgb(20, 39, 133);
+}
+
 #formButton p {
     width: 100%;
 }
