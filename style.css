@@ -41,24 +41,21 @@ footer {
 /*------------------------------
         ELEMENTS IN MAIN
   ------------------------------*/
+h2 {
+    font-weight: 600;
+    background: -webkit-linear-gradient(goldenrod, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-h4, label {
+h4 {
     color: rgb(20, 39, 133);
 }
 
-input {
-    padding: 10px;
-    font-size: 14px;
-}
-
-select {
-    padding: 10px;
-    font-size: 14px;
-}
-
-#formEuro{
+#formEuro {
     display: inline;
 }
+
 #formButton {
     margin: 5%;
     display: flex;
@@ -66,12 +63,15 @@ select {
     justify-content: center;
     align-items: center;
 }
-#formButton p{
-    width: 100%;
-}
+
+/*------------------------------
+        ELEMENTS IN FORM
+  ------------------------------*/
 
 input,
 select {
+    padding: 10px;
+    font-size: 14px;
     border: 1px solid black;
 }
 
@@ -83,6 +83,15 @@ input[type="submit"] {
     border: 2px solid black;
     border-radius: 5%;
     background-color: goldenrod;
+}
+
+#formButton p {
+    width: 100%;
+}
+
+#output {
+    margin-left: 5%;
+    width: 20%;
 }
 
 #error {
