@@ -1,7 +1,7 @@
-# <font color="gold">COIN CONVERTER</font>
+# <font color="gold">CURRENCY CONVERTER</font>
 
 ## <font color="blue">Proyect Description:</font>
-Converter from euros to dollars, yen and won
+Converter from euros to dollars, yen and won.
 
 ## <font color="blue">We use:</font>
 * Input to write euro.
